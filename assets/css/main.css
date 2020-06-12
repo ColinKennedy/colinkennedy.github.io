@@ -3136,3 +3136,22 @@ input, select, textarea {
 					}
 
 	}
+
+.horizontal_center {
+    text-align: center;
+}
+
+iframe {
+    border-width: 0px;
+}
+
+iframe.horizontal_center {
+    display:block;
+    margin: 0 auto;
+}
+
+/* Utilities */
+.spacer_300 {
+    height: 80px;
+    max-width: 100%;
+}
