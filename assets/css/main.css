@@ -3139,3 +3139,24 @@ iframe.horizontal_center {
     height: 80px;
     max-width: 100%;
 }
+
+.spacer_700 {
+    height: 130px;
+    max-width: 100%;
+}
+
+@keyframes quick_glow {
+    from {
+        text-shadow: 0 0 2px;
+    }
+
+    to {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #fff;
+        text-shadow: 0 0 4px;
+    }
+}
+
+nav a:hover {
+    animation: quick_glow 1s linear 0 1 normal forwards;
+}
