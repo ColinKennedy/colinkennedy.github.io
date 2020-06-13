@@ -1,10 +1,3 @@
-Make a list of "software I like"
+My site, based on [the Helios Theme from html5up](https://html5up.net/helios).
 
-- Rez
-- USD
-- Vim
-- anki
-- autojump
-- dwm
-- fzf
-- tmux
+At some point I'd like to re-do the whole site to be simpler.
